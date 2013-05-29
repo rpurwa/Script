@@ -1,3 +1,4 @@
+
 //<![CDATA[
 var rp_homePage    = "http://jawakos.blogspot.com", // Your blog homepage
     rp_numPosts    = 5, // How many posts?
@@ -116,3 +117,4 @@ if (rp_loadTimer === "onload") {
         document.getElementsByTagName('head')[0].appendChild(rp_script);
     }, rp_loadTimer);
 }
+
