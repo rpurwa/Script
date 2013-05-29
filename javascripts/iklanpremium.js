@@ -117,4 +117,3 @@ if (rp_loadTimer === "onload") {
         document.getElementsByTagName('head')[0].appendChild(rp_script);
     }, rp_loadTimer);
 }
-</script>
