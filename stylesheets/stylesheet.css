@@ -429,3 +429,61 @@ Small Device Styles
   }
 
 }
+
+/*  -------------- * POSTINGAN *  ------------------- */
+.data{
+margin-top:8px;
+margin-bottom:15px;
+}
+.author,.clock{
+float:right;
+margin:-3px 0px 7px 0px ;
+font-size:11px;
+color:#999;
+}
+.pengiklan{
+padding:5px 10px;
+background:#F8F5D7;
+float:left;
+margin:0px 10px -5px 0px ;
+font-size:10px;
+width:96%;
+color:#000000;
+}
+.premium{
+padding:10px 8px 22px 10px;
+background:#D8F77D url(http://2.bp.blogspot.com/-Ug48p_c0ohI/Twr86M3ERPI/AAAAAAAABMU/76HlfVYO5bw/s1600/premium.png) no-repeat bottom center;
+float:left;
+margin:-3px 0px 5px -1px ;
+font-size:12px;
+width:99%;
+color:#000000;
+position:relative;
+left:-5px;
+text-align:justify;
+}
+.premium h3{
+font-size:16px;
+margin-top:5px;
+}
+.premium h3 a {
+color:#011440;
+}
+.premium h3 a:hover{
+color:#003DCE;
+text-decoration:none;
+}
+.premium img{
+max-width:70px;
+padding:5px;
+float:left;
+}
+.kirimpremium{
+padding:5px 10px;
+background:#F8F5D7;
+float:left;
+margin:10px 10px 0px 0px ;
+font-size:10px;
+width:95%;
+color:#000000;
+}
