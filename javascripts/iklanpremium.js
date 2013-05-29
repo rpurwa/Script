@@ -25,6 +25,7 @@ var rp_homePage    = "http://autoiklanmassal.blogspot.com/", // Your blog homepa
 //]]>
 
 </script>
+
 <script type="text/javascript" >
 function showRecentPosts(json) {
 
