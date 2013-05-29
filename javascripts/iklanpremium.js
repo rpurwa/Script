@@ -23,8 +23,7 @@ var rp_homePage    = "http://jawakos.blogspot.com", // Your blog homepage
     rp_newTabLink  = true, // If true, then all the widget links will automatically opens in new window/new tab
     rp_loadTimer   = "onload"; // "onload" || time in milliseconds (e.g: 3000, 4000, ...)
 //]]>
-</script>
-<script type="text/javascript">
+
 
 function showRecentPosts(json) {
 
