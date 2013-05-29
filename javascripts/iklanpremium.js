@@ -24,7 +24,9 @@ var rp_homePage    = "http://jawakos.blogspot.com", // Your blog homepage
     rp_loadTimer   = "onload"; // "onload" || time in milliseconds (e.g: 3000, 4000, ...)
 //]]>
 
+</script>
 
+<script type="text/javascript" >
 function showRecentPosts(json) {
 
     for (var i = 0; i < rp_numPosts; i++) {
