@@ -1,5 +1,5 @@
 //<![CDATA[
-var rp_homePage    = "http://autoiklanmassal.blogspot.com/", // Your blog homepage
+var rp_homePage    = "http://jawakos.blogspot.com", // Your blog homepage
     rp_numPosts    = 5, // How many posts?
     rp_thumbWidth  = 72, // Thumbnail width. Change to 0 if you want to disable the post thumbnail
     rp_numChars    = 250, // Number of posts summary
@@ -23,10 +23,9 @@ var rp_homePage    = "http://autoiklanmassal.blogspot.com/", // Your blog homepa
     rp_newTabLink  = true, // If true, then all the widget links will automatically opens in new window/new tab
     rp_loadTimer   = "onload"; // "onload" || time in milliseconds (e.g: 3000, 4000, ...)
 //]]>
-
 </script>
+<script type="text/javascript">
 
-<script type="text/javascript" >
 function showRecentPosts(json) {
 
     for (var i = 0; i < rp_numPosts; i++) {
@@ -70,7 +69,7 @@ function showRecentPosts(json) {
 
         if (rp_thumbWidth !== 0 || rp_thumbWidth !== false) {
             if ("media$thumbnail" in entry) {
-                postImage = '<img style="width:' + rp_thumbWidth + 'px;height:' + rp_thumbWidth + 'px;" src="' + entry.media$thumbnail.url.replace(//s[0-9]+-c/g, "/s" + rp_thumbWidth + "-c") + '" alt="Loading..." />';
+                postImage = '<img style="width:' + rp_thumbWidth + 'px;height:' + rp_thumbWidth + 'px;" src="' + entry.media$thumbnail.url.replace(/\/s[0-9]+\-c/g, "\/s" + rp_thumbWidth + "-c") + '" alt="Loading..." />';
             } else {
                 postImage = '<img style="width:' + rp_thumbWidth + 'px;height:' + rp_thumbWidth + 'px;" src="' + rp_noImage + '" alt="Loading..."/>';
             }
@@ -78,7 +77,7 @@ function showRecentPosts(json) {
             postImage = "";
         }
 
-        postContent = postContent.replace(/<br ?/?>/ig, " ");
+        postContent = postContent.replace(/<br ?\/?>/ig, " ");
         postContent = postContent.replace(/<(.*?)>/g, "");
 
         if (postContent.length > rp_numChars || rp_numChars !== false) {
@@ -118,3 +117,4 @@ if (rp_loadTimer === "onload") {
         document.getElementsByTagName('head')[0].appendChild(rp_script);
     }, rp_loadTimer);
 }
+</script>
