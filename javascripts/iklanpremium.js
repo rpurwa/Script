@@ -1,2 +1,9 @@
-document.writeln("Hello World!");
-document.writeln("Have a nice day!");
+document.writeln("<div class="premium"><h3><a onclick="window.open('http://iklan-donk.blogspot.com')" href="http://bisnis-kamboja.blogspot.com/">Jual Kamboja Kering Dan Basah</a></h3>")
+document.writeln("<img src="http://3.bp.blogspot.com/-beIGeO9gyGg/UMm6JTRGiUI/AAAAAAAADlU/R018Oya09dM/s798/Jawajos125.png">Pohon kamboja, khususnya kamboja berbunga putih (Plumeira alba), masih dipandang sebelah mata. Sebab, kebanyakan tanaman ini tumbuh di kuburan. Tidak jarang, orang menyebutnya sebagai bunga kuburan. Bunganya yang telah dikeringkan, lantas ditumbuk halus, banyak dipakai sebagai bahan baku wewangian, kosmetik, industri kerajinan dupa, spa, serta teh herbal.")
+document.writeln("Untuk harga perkilo, kami tidak mematok harga paten dikarenakan harga yang tidak stabil dan berubah sewaktu-waktu. Jika anda berminat, silahkan hubungi kami atau jika anda ada di Banjarmasin, bisa datang langsung ke tempat kami.")
+document.writeln("<div class="kirimpremium">Dikirim oleh : Kamboja Kering, banjarmasin, 081334232727 | <a onclick="window.open('http://iklan-donk.blogspot.com')" href="http://bisnis-kamboja.blogspot.com/" target="_blank">Kunjungi Website</a></div></div>")
+document.writeln("<br>")
+document.writeln("<div class="premium"><h3><a onclick="window.open('http://iklan-donk.blogspot.com')" target="_blank" href="http://jangkrikbanjarmasin.blogspot.com/">Jual JANGKRIK MURAH Banjarmasin</a></h3>")
+document.writeln("<img src="http://4.bp.blogspot.com/-uHDtTYULVEI/T1jdQi_y7DI/AAAAAAAAAy4/xSZ6tLWdOnk/s320/ternak-jangkrik.jpg"><br/>Kami jual jangkrik berkualitas dengan harga murah. Siap kirim P. Jawa & Luar Jawa Malang, Blitar, Banyuwangi, Lamongan, Jember, Banjarmasin, Pontianak, ... ")
+document.writeln("Bila ada yang berminat langsung hubungi kami")
+document.writeln("<div class="kirimpremium">Dikirim oleh :  Jangkrik Lampau, banjarmasin, 085347111919 | <a onclick="window.open('http://iklan-donk.blogspot.com')" target="_blank" href="http://jangkrikbanjarmasin.blogspot.com">Kunjungi Website</a></div></div>")
