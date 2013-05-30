@@ -1,9 +1,6 @@
 <?php
-
-/*Ini adalah multiline comments
-  oleh : Joni
-  Tanggal : 11 Juni 2012 */
-
-echo "Tulisanku";
-
+$a = 'Wati pergi ke pasar\\n';
+$b = "Wati pergi ke pasar\\n";
+echo $a;
+echo $b;
 ?>
